@@ -43,7 +43,7 @@ const display_data = (data) => {
         card.innerHTML = `
             
                     <div class="text-center my-5">
-                        <img class="w-100" src="./PHero-Tube-main/icon.png" alt="...">
+                        <img class="w-25" src="./PHero-Tube-main/no-video.png" alt="...">
                         <h1> Oops!! Sorry, There is<br> no content here</h1>
                     </div>
                    
