@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Tube</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        ntegrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid mx-5 my-4 flex-column flex-md-row align-items-md-center row-gap-4">
+            <a class="navbar-brand mb-2 mb-md-0" href="#">
+                <img class="main-icon" src="./PHero-Tube-main/Logo.png" alt="">
+            </a>
+
+            <button onclick="sorted()" class="btn border-0 mb-2 mb-md-0" id="sort-by-btn"><strong>Sort BY View</strong></button>
+
+            <a href="./blog/index.html" target="_blank">
+                <button class="btn border-0 bg-danger p-2 px-4 text-white">Blog</button>
+            </a>
+        </div>
+    </nav>
+
+    <!-- btn section -->
+    <section class="bg-body-tertiary">
+        <hr class="m-0">
+        <div class="text-center">
+            <button class="sorting-btn btn m-3 my-5" onclick="get_data('1000')" id="1000">All</button>
+            <button class="sorting-btn btn m-3 my-5" onclick="get_data('1001')" id="1001">Music</button>
+            <button class="sorting-btn btn m-3 my-5" onclick="get_data('1003')" id="1003">Comedy</button>
+            <button class="sorting-btn btn m-3 my-5" onclick="get_data('1005')" id="1005">Drawing</button>
+        </div>
+    </section>
+
+    <!-- video section -->
+    <section class="container-fluid bg-body-tertiary">
+        <div class="row" id="video-container">
+
+            <!-- <div class="row">
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="./PHero-Tube-main/Logo.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+
+                            <div class="d-flex justify-content-start">
+                                <img src="./PHero-Tube-main/Logo.png" class="w-25 m-2" alt="...">
+                                <p class="card-title">Card title</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+body {
+    background-color: #F8F9FA;
+}
+
+.navbar {
+    height: 15vh;
+}
+
+@media(max-width: 768px) {
+    .navbar {
+        height: 40vh;
+    }
+}
+
+
+.main-icon {
+    width: 19vh;
+}
+
+#sort-by-btn {
+    background-color: #d3d3d3;
+}
+
+.sorting-btn {
+    background-color: #d3d3d3;
+}
+
+.sorting-btn.clicked {
+    background-color: #DC3545;
+    color: white;
+}
+
+#video-container p {
+    font-size: 15px;
+}
+
+.video {
+    width: 100%;
+    height: 20%;
+}
+
+@media(max-width: 768px) {
+    .video {
+        width: 100%;
+        height: 20%;
+    }
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.verify-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.time-stamp {
+    color: white;
+    font-size: 10px;
+    padding: 3px;
+    background-color: rgba(104, 103, 103, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+    bottom: 0%;
+    right: 0%;
+}
