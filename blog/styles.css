@@ -1,7 +1,5 @@
 body {
-    background-color: darkslategray;
-
-    background-size: cover;
+   background: linear-gradient(13.89deg, #030640 10.47%, #690e87 98.32%, #383b81);
 }
 
 .dropdown-container {
